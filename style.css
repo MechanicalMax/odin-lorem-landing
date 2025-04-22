@@ -25,3 +25,14 @@ nav ul,
 nav p {
     font-size: 24px;
 }
+
+button,
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.cards h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}

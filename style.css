@@ -56,6 +56,16 @@ ul {
     gap: 32px;
 }
 
+.call-to-action {
+    margin: 80px;
+    padding: 16px 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:16px;
+}
+
 footer {
     padding: 10px;
     display: flex;

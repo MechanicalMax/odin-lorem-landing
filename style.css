@@ -36,3 +36,14 @@ button,
     color: #1F2937;
     font-weight: 900;
 }
+
+.quote {
+    background: #E5E7EB;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}

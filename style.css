@@ -33,6 +33,16 @@ button,
     background-color: #3882F6;
 }
 
+button {
+    border: #F9FaF8 solid;
+    border-radius: 4px;
+    padding: 4px 24px;
+}
+
+.hero button {
+    border: transparent;
+}
+
 .cards h2 {
     font-size: 36px;
     color: #1F2937;

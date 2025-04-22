@@ -43,10 +43,32 @@ button {
     border: transparent;
 }
 
+.cards {
+    margin-bottom: 80px;
+}
+
 .cards h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+}
+
+.cards ul {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 300px;
+}
+
+.cards img {
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.cards p {
+    text-align: center;
 }
 
 .quote {

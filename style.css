@@ -25,12 +25,18 @@ nav,
 .hero {
     padding-top: 160px;
     padding-bottom: 160px;
+    gap: 50px;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
     margin: 0;
+}
+
+.hero img {
+    background-color: darkgray;
+    padding: 100px 20%;
 }
 
 nav ul,

@@ -72,16 +72,18 @@ button {
 }
 
 .cards ul {
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards li {
+    max-width: 200px;
 }
 
 .cards img {
     border: #3882F6 solid 4px;
     border-radius: 20px;
-    width: 300px;
-    height: 300px;
+    padding: 50px;
 }
 
 .cards p {

@@ -39,10 +39,14 @@ nav,
     padding: 100px 20%;
 }
 
-nav ul,
+nav a,
 .hero p {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 nav p {

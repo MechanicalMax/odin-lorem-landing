@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .call-to-action,
@@ -13,9 +14,23 @@ footer {
     color: #F9FaF8;
 }
 
+nav,
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.hero {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 nav ul,
@@ -25,7 +40,9 @@ nav ul,
 }
 
 nav p {
+    margin: 0;
     font-size: 24px;
+    font-weight: 900;
 }
 
 button,
@@ -44,7 +61,7 @@ button {
 }
 
 .cards {
-    margin-bottom: 80px;
+    margin: 0px 160px 80px 160px;
 }
 
 .cards h2 {
